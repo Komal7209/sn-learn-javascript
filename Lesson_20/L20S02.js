@@ -9,3 +9,5 @@ try {
   gs.error('Uh-oh ' + e.message);
 }
 gs.info('done');
+
+// here whatever error it will show, go to system logs from left search bar

@@ -9,7 +9,7 @@ var answer = true;      // Simple boolean variable
 var c = "http://www.amazon.com";  // Not ideal
 var case = 'CASE0010001';         // Reserved word!
 var lastEntryInTheListWithRelatedRecords = true; // a bit long?
-// personCount      // Indicates a counter/integer
+// personCount      // Indicates a counter/integer // adding person so that this count variable indicates this us about a person, rather than anyother objects which are also indicating for count
 // personList       // Must be a list
 // personObj        // Object
 // personGr         // GlideRecord

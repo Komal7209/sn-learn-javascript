@@ -17,7 +17,7 @@ function toFahrenheit(c) {
     return f;
 }
 
-function convertTemp(temp) {
+function convertTemp(temp) { // master function
 
   // use the global variable to determine conversion
   if (convertTo == 'C') {

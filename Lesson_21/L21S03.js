@@ -6,7 +6,7 @@ incGr.setLimit(1);
 incGr.query();
 
 if (incGr.next()) {
-  var dotNumber = incGr.number;
+  var dotNumber = incGr.number; // it is an object
   var gvNumber  = incGr.getValue('number');
   gs.info('dotNumber=' + typeof dotNumber + ' gvNumber=' + typeof gvNumber);
 }

@@ -11,6 +11,6 @@ var id = 1;
 for (var team = 0; team < 5; team++) {
     for (var person = 0; person < 4; person++) {
         gs.info('id=' + id + ' team=' + team+1 + ' person=' + person+1);
-        ++id;
+        ++id; // here just id is incremented at every moment
     }
 }

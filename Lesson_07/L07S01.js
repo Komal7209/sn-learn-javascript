@@ -9,4 +9,4 @@
 //
 gs.info('Single string\nTwo lines');
 gs.info('Chuck\'s simple script');
-gs.info('Don\'t confuse a forward slash (/) with a backslash(\\)');
+gs.info('Don\'t confuse a forward slash (/) with a backslash(\\)'); // here double backslashes to print backslash for output

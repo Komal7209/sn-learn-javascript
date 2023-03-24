@@ -26,5 +26,5 @@ Output from Scripts - background
 *** Script: allStrings=Chuck
 Tomasi
 JavaScript
-*** Script: length of allStrings=23
+*** Script: length of allStrings=23 // added newlines as well
 */

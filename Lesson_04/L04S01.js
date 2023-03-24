@@ -17,6 +17,9 @@ gs.info(a + b);
 a++;
 gs.info(a);
 
+gs.info(a++); // this will give 12
+gs.info(++a); // this will give 13
+
 // Decrement by 1
 b--;
 gs.info(b);

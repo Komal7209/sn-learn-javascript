@@ -6,7 +6,7 @@ var done = false;
 while (!done) {
   if (i < 5) {
     ++i;
-    gs.info(i + ' done=' + done);
+    gs.info(i + ' done=' + done); // i++ // uses value first thus willprint 0, // ++i => increment first thus 1 would be printed
     continue;
   }
   gs.info('I think we are done');

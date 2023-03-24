@@ -9,3 +9,4 @@ function toCelsius(fahrenheit) {
     return c;
 }
 gs.info(c); // What happened?
+// c is a local variable, that's why it will throw error

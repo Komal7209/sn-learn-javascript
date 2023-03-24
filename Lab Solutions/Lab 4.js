@@ -19,7 +19,7 @@ switch (language) {
         toString = 'Hola Mundo';
         break;
     default:
-        toString = 'Hello, world';
+        toString = '** UNDEFINED LANGUAGE **';
 }
 
 gs.info(fromString + ' in ' + language + ' ==> ' + toString);
