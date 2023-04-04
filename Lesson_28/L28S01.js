@@ -1,5 +1,6 @@
 //
 // L28S01 - Get object keys
+// here key refers to properties of that object
 //
 var vehicle = {
   "year" : 2018,

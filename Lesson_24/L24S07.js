@@ -4,3 +4,5 @@
 var names = ["Eric", "Donna", "Melanie", "Jessie", "Howard", "Tomasz"];
 names.reverse();
 gs.info(names.join(', '));
+
+// Tomasz, Howard, Jessie, Melanie, Donna, Eric

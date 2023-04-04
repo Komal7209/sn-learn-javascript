@@ -27,7 +27,7 @@ vehicle.prototype = {
 };
 
 var car = Class.create();
-car.prototype = Object.extendsObject(vehicle, {
+car.prototype = Object.extendsObject(vehicle, { // all info of vehicle will be applicable here
 
     findDealer : function() {
       gs.info('Find dealer is not yet implemented');
@@ -45,6 +45,10 @@ v1.register();
 v1.info();
 
 var v2 = new car('2017', 'Honda', 'CR-V');
-v2.register();
-v2.findDealer();
-v2.info();
+v2.register(); // comes from vehicle class
+v2.findDealer(); // part of car class
+v2.info(); // this is used for car class rather than vehice class
+
+
+
+// check for GlideAjax

@@ -12,3 +12,13 @@
     return answer;
     
 })(request, response);
+
+/*
+1. change to POST
+2. put relative path as ls4
+3. provide body in builder
+4. Click on save and then result would be in response
+
+
+
+*/

@@ -3,5 +3,5 @@
 //
 var str = 'Approved: RITM0010001 - Laptop renewal';
 var pos = str.indexOf('RITM');
-var ritmNumber = str.substring(pos, pos + 11);
+var ritmNumber = str.substring(pos, pos + 11); //starting, ending pos
 gs.info(ritmNumber);

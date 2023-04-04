@@ -1,6 +1,8 @@
 //
 // L26S02 - Bracket notation…
 //
+// rather than dot , using bracket notation
+
 var vehicle = {};
 vehicle['year'] = 2018;
 vehicle['make'] = "Toyota";

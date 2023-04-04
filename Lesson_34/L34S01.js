@@ -3,10 +3,10 @@
 //
 var item = Class.create();
 item.prototype = {
-    initialize: function() {
+    initialize: function() { // loosly coupled, as here object is not created
     },
 
-    debugObject : function(obj) {
+    debugObject : function(obj) { // insted object gets into picture from below fn
 
       gs.info('object=' + JSON.stringify(obj, null, 4));
     },
@@ -21,4 +21,4 @@ var myObj = {
   "state"  : "allocated"
 };
 var myItem = new item();
-myItem.debugObject(myObj); // Loosely coupled
+myItem.debugObject(myObj); // Loosely coupled : if class and fn are not dependent on each other i.e we can easily change object without affecting core class

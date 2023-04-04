@@ -3,6 +3,6 @@
 //
 var list = ['apple', 'banana', 'orange'];
 
-list.forEach(function (item, index, arr) {
-  gs.info('embedded function item=' + item + ' index=' + index + ' arr=' + arr);
+list.forEach(function (item, index, arr) { // paramter passed are keywords
+  gs.info('embedded function item=' + item + ' index=' + index + ' arr=' + arr); 
 });

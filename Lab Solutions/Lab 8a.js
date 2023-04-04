@@ -29,3 +29,15 @@
     response.setBody(answer);
     
 })(request, response);
+
+/*
+1. Paste above code 
+2. Give relative path lab8
+3. GET
+4. Give params:
+    a. tableName: incident
+    b. limit: 5
+5. send
+6. gave new url and gave ans in response
+
+*/

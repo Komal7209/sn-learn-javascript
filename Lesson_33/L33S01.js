@@ -2,9 +2,9 @@
 // L33S01 - Classes, Objects, and Prototypes
 //
 
-var person = Class.create();
+var person = Class.create(); // keyword to create class
 person.prototype = {
-    initialize: function() {
+    initialize: function() { // fn name : function keyword
       this.firstName = '';
       this.lastName  = '';
     },
@@ -13,18 +13,18 @@ person.prototype = {
       this.firstName = str;
     },
 
-    setLastName : function(str) {
+    setLastName : function(str) { // setter
       this.lastName = str;
     },
 
-    getDisplayName : function() {
+    getDisplayName : function() { // getter
       return this.firstName + ' ' + this.lastName;
     },
 
-    type: person
+    type: person // ends with type keyword
 };
 
-var me = new person();
+var me = new person(); // using class by creating me object
 me.setFirstName('Chuck');
 me.setLastName('Tomasi')
 gs.info('me=' + me.firstName + ' ' + me.lastName); // Not advised

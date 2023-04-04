@@ -1,7 +1,9 @@
 //
 // L26S01 - Simple Objects
 //
-var box = {};
+// we are representing below, by using dot notation:
+
+var box = {}; // var box = new Object();
 box.height   = 20;
 box.width    = 10;
 box.length   = 10;

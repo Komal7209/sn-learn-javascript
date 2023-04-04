@@ -12,10 +12,10 @@ Solutions to lab exercises can also be found in the *Lab Solutions* folder.
 
 * [Codecademy.com (JavaScript)](https://www.codecademy.com/catalog/language/javascript)
 * [W3Schools.com (Javascript)](https://www.w3schools.com/js/default.asp)
-* [ServiceNow Developer Program](https://developer.servicenow.com)
+* [ServiceNow Developer Program](https://developer.servicenow.com) // important to check
 * [Scripting in ServiceNow Fundamentals](https://www.servicenow.com/services/training-and-certification/scripting-in-servicenow-training.html)
 * [ServiceNow Docs](https://docs.servicenow.com)
-* [ServiceNow Technical Best Practices](https://developer.servicenow.com/dev.do#!/guides/quebec/now-platform/tpb-guide/scripting_technical_best_practices)
-* [TechNow webinars](https://devlink.sn/technow)
+* [ServiceNow Technical Best Practices](https://developer.servicenow.com/dev.do#!/guides/quebec/now-platform/tpb-guide/scripting_technical_best_practices) // to check 
+* [TechNow webinars](https://devlink.sn/technow) // can check
 * [ServiceNow Community](https://community.servicenow.com)
-* [Stephen Bell's Scripting Best Practices Videos](https://www.youtube.com/user/ServiceNowCommunity/search?query=scripting+best+practices)
+* [Stephen Bell's Scripting Best Practices Videos](https://www.youtube.com/user/ServiceNowCommunity/search?query=scripting+best+practices) // can check

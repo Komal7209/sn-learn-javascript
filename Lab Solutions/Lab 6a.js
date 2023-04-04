@@ -13,10 +13,12 @@ function listRecords(tableName) {
     recGr.query();
     
     while (recGr.next()) {
-        answer.push(recGr.getDisplayValue());
+        answer.push(recGr.getDisplayValue()); // this fucntion is provided by servicenow
     }
     
     return answer;
 }
 
 gs.info(listRecords('incident').join('\n'));
+
+// getDisplayValue() => is api : https://developer.servicenow.com/dev.do#!/reference/api/sandiego/server_legacy/c_GlideRecordAPI#r_GlideRecord-getDisplayValue

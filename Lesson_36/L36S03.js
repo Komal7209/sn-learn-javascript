@@ -15,3 +15,12 @@
   return answer;
     
 })(request, response);
+
+/*
+Here we dont want to pass the param under param tab,
+But under relative path : /ls3/{tableName}/{id}
+And save
+
+This will create a link which will by itself ask for path parameters
+Then fill the required info and click save and thus a new link will be created down and result would be there in response tab
+*/

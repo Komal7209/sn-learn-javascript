@@ -23,7 +23,7 @@ person.prototype = {
     type: 'person'
 };
 
-var me = new person('Chuck', 'Tomasi');
+var me = new person('Chuck', 'Tomasi'); // instantiate with new keywprd
 var name = me.getDisplayName();
 gs.info(name);
 me.setFirstName('Fred');

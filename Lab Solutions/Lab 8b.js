@@ -9,10 +9,22 @@
  
     var queryParams = request.queryParams; 
     var tableName   = queryParams.tableName;
-    var limit.      = queryParams.limit;
+    var limit      = queryParams.limit;
 
     var list = new SNJS().getRecords(tableName, limit);
         
     response.setBody(list);
     
 })(request, response);
+
+/*
+
+Create a new scriptRestApi under previous scriptedRestAPI's resource's new
+then we have removed whole logic as that is present in SNJS scriptInclude
+and just added lab 8b-scriptedInclude-test.js into the same
+
+Then test the same using rest api explorer
+Add query param
+tableName: problem
+limit: 5
+*/

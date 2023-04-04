@@ -15,3 +15,5 @@ function factorial(x) {
   return x * factorial(x - 1);
 }
 gs.info(factorial(3)); // 6
+
+// above concept can be used to get a particular record from db and if it has children then do get records of those children as well

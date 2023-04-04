@@ -21,6 +21,7 @@ function listRecords(tableName, limit) {
     }
     recGr.query();
     
+    // creating new obj each time and pushing that to array
     while (recGr.next()) {
         var obj = {};
         obj.display_value = recGr.getDisplayValue();

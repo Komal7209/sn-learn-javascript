@@ -26,3 +26,13 @@ SNJS.prototype = {
 
     type: 'SNJS'
 };
+
+/*
+1. System definitions
+2. Script Include
+3. new
+4. give name SNJS
+5. Paste above code
+
+
+*/

@@ -14,3 +14,15 @@
   return answer;
     
 })(request, response);
+
+/*
+1. Under resources tab, click new 
+2. give name, paste above code, give LS2 in relative path option
+3. click save and under resource path, new link would be created
+4. Click on rest api explorer link , and copy the above link
+    a. put query param as: 
+    b. active true 
+    c. name now
+5. Click on send 
+
+*/

@@ -23,3 +23,6 @@ function listRecords(tableName, limit) {
 }
 
 gs.info(listRecords('incident', 10).join('\n'));
+gs.info(listRecords('problem', 5).join('\n'));
+gs.info(listRecords('incident').join('\n')); // here it will list all
+gs.info(listRecords('incident', true).join('\n')); // here it will list 1 record as true has value 1 in js
